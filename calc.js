@@ -220,10 +220,7 @@ function Calculator(){
             //     alert("Thank for trusting our service, Bye for now!")
             // }
             
-            // else {
-            //     //Error
-            //     showError()
-            // }
+        
         }
         // Exit plan for the while loop
         result = newResult

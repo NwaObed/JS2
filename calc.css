@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(23, 17, 17);
+    display: flex;
+    place-content: center;
+    height: 100vh;
+    font-size: 30pt;
+}
+
+main{
+    width: 50%;
+    /* background-color: aliceblue; */
+    margin: auto;
+    text-align: center;
+}
+.calculator{
+    display: grid;
+    grid-template-areas: 
+    'ac-div ac-div del-div divide-div'
+    'one-div two-div three-div multiple-div'
+    'four-div five-div six-div plus-div'
+    'seven-div eight-div nine-div minus-div'
+    'dot-div zero-div equals-div equals-div';
+    /* gap: 10px; */
+    background-color: rgb(174, 173, 173);
+}
+
+/* .answer{
+    background-color: red;
+    width: 100%;
+
+} */
+
+#ans{
+    width: 100%;
+    height: 100px;
+    border: 2px solid;
+    border-color: red;
+    background-color: black;
+    margin: 0;
+    color: white;
+    font-size: 30pt;
+
+}
+
+.ac{
+    grid-area: ac-div;
+}
+
+.delete{
+    grid-area: del-div;
+}
+
+.divide{
+    grid-area: divide-div;
+    background-color: white;
+}
+
+.one{
+    grid-area: one-div;
+}
+
+.two{
+    grid-area: two-div;
+}
+
+.three{
+    grid-area: three-div;
+}
+
+.multiple{
+    grid-area: multiple-div;
+}
+
+.four{
+    grid-area: four-div;
+}
+
+.five{
+    grid-area: five-div;
+}
+
+.six{
+    grid-area: six-div;
+}
+
+.plus{
+    grid-area: plus-div;
+}
+
+.seven{
+    grid-area: seven-div;
+}
+
+.eight{
+    grid-area: eight-div;
+}
+
+.nine{
+    grid-area: nine-div;
+}
+
+.minus{
+    grid-area: minus-div;
+}
+
+.dot{
+    grid-area: dot-div;
+}
+
+.zero{
+    grid-area: zero-div;
+}
+
+.equals{
+    grid-area: equals-div;
+}
+
+.calculator div{
+    border: 5px solid;
+    border-color: white;
+    padding: 50px;
+}
+
+
